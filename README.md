@@ -1,36 +1,63 @@
 # Arithmetic Operations in Java ➕
 
-This is a simple Java program that demonstrates basic arithmetic operations using a custom `Arithmetic` class.  
-It supports addition, multiplication, and finding the larger or smaller of two numbers.
+This project is a simple Java application created for practicing basic object-oriented programming concepts and arithmetic operations.
+
+It demonstrates how to work with a custom `Arithmetic` class that encapsulates two numbers and provides methods for common operations.
 
 ---
 
 ## 📌 Features
-- **Addition** of two numbers.
-- **Multiplication** of two numbers.
-- Find the **larger number**.
-- Find the **smaller number**.
+
+- Addition of two numbers  
+- Multiplication of two numbers  
+- Determining the larger of two numbers  
+- Determining the smaller of two numbers  
+
+---
+
+## 🧱 Project Structure
+
+The core logic is implemented in a custom `Arithmetic` class which:
+- Stores two numeric values as fields
+- Provides methods to perform arithmetic and comparison operations on them
 
 ---
 
 ## 🛠️ Requirements
-- **Java 8+** installed on your system.
+
+- Java 8 or higher
 
 ---
 
-## ▶️ How to Use
+## ▶️ Usage Example
+
+Below is an example of how the `Arithmetic` class can be used inside a `main` method:
 
 ```java
-// Create an Arithmetic object with two numbers
 Arithmetic values = new Arithmetic(9, 7);
 
-// Perform operations
-System.out.println(values.addition());       // Output: 16
-System.out.println(values.multiplication()); // Output: 63
-System.out.println(values.moreNumber());     // Output: 9
-System.out.println(values.lessNumber());     // Output: 7
+System.out.println(values.addition());       // 16
+System.out.println(values.multiplication()); // 63
+System.out.println(values.moreNumber());     // 9
+System.out.println(values.lessNumber());     // 7
+```
+
 🎮 Example Output
+```java
 16
 63
 9
 7
+```
+⚠️ Notes
+The project is intended for educational purposes.
+The class currently works with integer values.
+Method names are kept simple for learning clarity.
+
+🚀 Possible Improvements
+Support for floating-point numbers
+Improved method naming to better follow Java conventions
+Unit tests for arithmetic operations
+
+📄 License
+This project is open for educational use.
