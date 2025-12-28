@@ -58,6 +58,5 @@ Method names are kept simple for learning clarity.
 Support for floating-point numbers
 Improved method naming to better follow Java conventions
 Unit tests for arithmetic operations
-
-📄 License
-This project is open for educational use.
+---
+The repository exists purely as a learning and demonstration artifact.
